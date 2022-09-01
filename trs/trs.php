@@ -114,7 +114,7 @@ else{
 
 	echo "<hr>";
 
-	$Months= array ("2016-10","2016-11","2016-12");
+	$Months= array ("2022-10","2022-11","2022-12");
 	$Systems = array("sut_1","sut_2","sut_3","sut_4","sut_5"); // !!! this should be populated from db
 
 

@@ -37,7 +37,7 @@ INSERT INTO systems (name) VALUES
 	('sut_5');
 
 INSERT INTO reservations ( res_date, user_id, system_id) VALUES
-	('2016-10-1',1,2),
-	('2016-10-1',1,3),
-	('2016-10-2',2,3)
+	('2022-10-1',1,2),
+	('2022-10-1',1,3),
+	('2022-10-2',2,3)
 	;
