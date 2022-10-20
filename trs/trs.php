@@ -103,9 +103,9 @@ else{
 		echo "DB ERR:" . $QS;
 	}
 	while($row = $result->fetch_assoc()){
-		$Key = $row['res_date'] .":" . $row[system_name];
+		$Key = $row['res_date'] .":" . $row['system_name'];
 
-		$ReservationsByDateAndSystem[$Key] = $row[user_name];
+		$ReservationsByDateAndSystem[$Key] = $row['user_name'];
 	}
 
 	// end load reservations array ////////////////////////
