@@ -1,0 +1,39 @@
+This directory contains the SQL files to build and populate the TRS 
+database.
+
+FILES
+=====
+		build_trs_db.sql
+			Create the database (named trs)
+
+		add_users.sql
+			Insert application users into the trs.users table
+
+		add_reservations.sql
+			Insert reservations into trs.reservations table
+			
+		create_mysql_trs_user.sql
+			Create the MariaDB use that the PHP application will use
+			to log on to the database
+
+		gen_reservations_sql.sh
+			Shell script to generate add_reservations.sql
+
+		ReadMe
+			This file
+
+USAGE
+=====
+	As the MariaDB root user execute these SQL files...
+
+		sudo mariadb < build_trs_db.sql
+		sudo mariadb < add_users.sql
+		sudo mariadb < add_reservations.sql
+		sudo mariadb < create_mysql_trs_user.sql
+
+	If any of these SQL statements are not executed successfully
+	the TRS PHP application will not function.
+
+
+James
+Summer 2023

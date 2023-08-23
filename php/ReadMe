@@ -1,0 +1,51 @@
+PHP application files for the TRS.  These files must reside in the same directory for the application to function.
+
+
+FILES:
+======
+		config.php
+			Holds database connection parameters.  This is the only file
+			that an admin should need to touch.
+
+		trs.php
+			The main page.  Handles login and the main reservation list.
+
+		deladd.php
+			Makes or releases a reservation.
+
+		logout.php
+			Displays the 'you are now logged out' page.
+
+		info.php
+			Display a PHP info page.  This page is not part of the TRS
+			application it is included for debugging.  
+			"curl http://host/trs/info.php" will show if PHP is working.
+
+		ReadME
+			This file.
+
+DEPENDENCIES:
+=============
+
+	TRS has been tested with:
+		Apache2: 2.4.41 (Ubuntu)
+		PHP: Version 7.4.3-4ubuntu2.19
+		PHP mysql: php-mysql/focal,focal,now 2:7.4
+		MariaDB: 10.3.38-MariaDB-0ubuntu0.20.04.1
+
+	On Ubuntu 20.04...
+		apt install apache2 
+		apt install php libapache2-mod-php
+		apt install php-mysql
+		apt install mariadb-server 
+		apt install mariadb-client (likely included with mariadb-server)
+
+NOTES:
+======
+	- This application is not production quality.  
+	- This application is not an example of good PHP coding.
+	- It is indended as a sample application to practice deployment.
+
+
+James
+Summer 2023
