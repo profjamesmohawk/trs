@@ -21,7 +21,7 @@
 	# set the defaults
 	$trs_db_uid="trs_user";
 	$trs_db_pw= "trs_pass";
-	$trs_db_host="db";
+	$trs_db_host="db09";
 	$trs_db_db="trs";
 
 	# set the config file name, to override assignments made above
