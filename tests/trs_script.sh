@@ -23,7 +23,7 @@ do
 		curl --cookie-jar myjar -b myjar \
 			"http://${TRS_HOST}/deladd.php?action=add&res_id=14" 
 
-		# make a reservation
+		# delete reservation
 		curl --cookie-jar myjar -b myjar \
 			"http://${TRS_HOST}/deladd.php?action=del&res_id=14"
 
