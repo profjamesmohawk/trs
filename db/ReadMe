@@ -26,10 +26,10 @@ USAGE
 =====
 	As the MariaDB root user execute these SQL files...
 
-		sudo mariadb < build_trs_db.sql
-		sudo mariadb < add_users.sql
-		sudo mariadb < add_reservations.sql
-		sudo mariadb < create_mysql_trs_user.sql
+		sudo mariadb < 01_build_trs_db.sql
+		sudo mariadb < 02_add_users.sql
+		sudo mariadb < 03_add_reservations.sql
+		sudo mariadb < 04_create_mysql_trs_user.sql
 
 	If any of these SQL statements are not executed successfully
 	the TRS PHP application will not function.
