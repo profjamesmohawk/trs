@@ -144,7 +144,7 @@ else{
 
 		}
 		$result->close();
-		$mycon->close();
+		$mysqli->close();
 		echo "</div>";
 	} catch (Exception $e){
 		echo 'Unexpected error fetching sechedule: ' . $e->getMessage(); 
